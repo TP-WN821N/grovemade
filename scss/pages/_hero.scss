@@ -1,0 +1,407 @@
+.hero {
+  background-image: url(../../img/Frame.svg);
+  background-position: center;
+  height: 504px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+
+  .hero_info {
+    color: #fff;
+    text-align: center;
+
+    h1 {
+      font-size: 43px;
+      font-weight: 400;
+      line-height: 46px;
+      padding-bottom: 12px;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 17.58px;
+      letter-spacing: 0.8px;
+      padding-bottom: 28px;
+    }
+
+    span {
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 15.23px;
+      letter-spacing: 1.4px;
+    }
+  }
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .design_info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding: 80px 20px;
+
+    h1 {
+      font-size: 43px;
+      line-height: 58px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.8px;
+      color: #a0a0a0;
+    }
+
+    span {
+      font-size: 13px;
+      line-height: 21px;
+      letter-spacing: 1.4px;
+    }
+  }
+
+  .design_box {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    .design_item {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+
+      .design_item-info {
+        text-align: center;
+        padding-top: 20px;
+
+        h3 {
+          font-size: 27px;
+          line-height: 30px;
+        }
+
+        span {
+          font-size: 13px;
+          line-height: 15.23px;
+          letter-spacing: 1.4px;
+        }
+      }
+    }
+  }
+}
+
+.products {
+  padding: 120px 20px 100px;
+
+  .products_info {
+    text-align: center;
+    padding-bottom: 40px;
+
+    h1 {
+      font-size: 33px;
+      line-height: 36px;
+      padding-bottom: 16px;
+    }
+
+    p {
+      color: #a0a0a0;
+      font-family: Roboto;
+      font-size: 15px;
+      line-height: 17.58px;
+      letter-spacing: 0.8px;
+    }
+  }
+
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 480px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-bottom: 90px;
+
+
+    p {
+      font-size: 13px;
+      line-height: 21px;
+      letter-spacing: 0.7px;
+      color: #a0a0a0;
+      text-align: start;
+      padding-top: 22px;
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.offise {
+  background-image: url(../../img/office.svg);
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 120px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .offise_info {
+    color: #fff;
+    text-align: center;
+
+    h1 {
+      font-size: 66px;
+      line-height: 70px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 16.41px;
+      letter-spacing: 0.800000011920929px;
+      padding: 14px 0 30px;
+    }
+
+    span {
+      font-size: 13px;
+      line-height: 15.23px;
+      letter-spacing: 1.399999976158142px;
+    }
+  }
+}
+
+.herdway {
+  padding-bottom: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 23px;
+
+  .hardway_info {
+    text-align: center;
+    width: 85%;
+
+    h1 {
+      font-size: 34px;
+      line-height: 36px;
+      padding-bottom: 23px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.8px;
+      color: #a0a0a0;
+    }
+  }
+
+  .hardway_img {
+    padding: 0 30px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.makework {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+  margin-bottom: 100px;
+
+  .makework_info {
+    text-align: center;
+    width: 85%;
+
+    h1 {
+      font-size: 34px;
+      line-height: 36px;
+      padding-bottom: 23px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.8px;
+      color: #a0a0a0;
+    }
+  }
+
+  .makework_box {
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 4%;
+
+    img {
+      width: 48%;
+    }
+  }
+
+  .makework_footer {
+    text-align: center;
+
+    h2 {
+      font-size: 34px;
+      line-height: 36px;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 21px;
+      letter-spacing: 1.4px;
+      padding-top: 40px;
+    }
+  }
+}
+
+.inspires {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px 40px;
+  background-color: #9AA8B1;
+  height: 400px;
+
+  .inspires_wraper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 24px;
+    color: #fff;
+    padding: 0 20px;
+
+    h1 {
+      font-size: 43px;
+      line-height: 58px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.8px;
+    }
+  }
+}
+
+@media (min-width: 520px) {
+  .makework {
+    .makework_box {
+      gap: 20px 3.5%;
+
+      img {
+        width: 31%;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .design {
+    .design_box {
+      flex-direction: row;
+      gap: 4%;
+
+      .design_item {
+        width: 48%;
+      }
+    }
+  }
+
+  .products {
+    .swiper-slide {
+      padding-bottom: 40px;
+    }
+  }
+
+  .herdway {
+    .hardway_info {
+      width: 70%;
+    }
+  }
+
+  .makework {
+    .makework_box {
+      gap: 20px 1.3%;
+
+      img {
+        width: 24%;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .makework {
+    .makework_info {
+      width: 70%;
+    }
+
+    .makework_box {
+      gap: 20px 1%;
+
+      img {
+        width: 19%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .makework {
+
+    .makework_box {
+      padding: 0 50px;
+      gap: 20px 1.1%;
+
+      img {
+        width: 15.5%;
+      }
+    }
+  }
+
+  .inspires {
+    margin: 0 50px;
+  }
+}
